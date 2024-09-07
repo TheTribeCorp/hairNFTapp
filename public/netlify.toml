@@ -4,6 +4,6 @@
   status = 200
 
 [build]
-  base = "/nftapp" # or the folder where your Next.js app is located, like "/app" or "/frontend"
+  base = "/" # or the folder where your Next.js app is located, like "/app" or "/frontend"
   publish = ".next"
-  command = "yarn build"
+  command = "npm run build && npm run export"
